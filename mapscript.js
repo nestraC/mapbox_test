@@ -1,5 +1,4 @@
-import CLIENT_ID from "./key.js"
-console.log(typeof(CLIENT_ID))
+import CLIENT_ID from "./key.js" //exports a constant with the mapbox access-token
 const mymap = L.map('mapid').setView([56.2, 11.089188], 7);
 const mapLink =
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
